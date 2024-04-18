@@ -1,4 +1,12 @@
-// sumRange: takes a number, n, and returns the sum of all numbers from 1 up to n
+/**
+ * sumRange
+ * @description This function calculates the sum of all positive integers
+ * from 1 up to a given number (n).
+ *
+ * @param {number} n - The upper limit of the range (inclusive). It must be a positive integer.
+ *
+ * @returns {number} - The sum of all positive integers from 1 to n.
+ */
 function sumRange(n) {
   return n === 1 ? n : (n + sumRange(n - 1));
 }
@@ -14,7 +22,7 @@ testInput.addEventListener('keydown', (event) => {
 });
 
 testInputBtn.addEventListener('click', (event) => {
-  const testInputValue = parseFloat(document.getElementById('test-input-1').value); // Convert to number
+  const testInputValue = parseFloat(testInput.value);
   const output = document.getElementById('test-output-1');
   output.textContent = sumRange(testInputValue);
   console.log(sumRange(testInputValue));

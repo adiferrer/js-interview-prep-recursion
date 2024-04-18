@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="./sumRange.js" defer></script>
+    <script src="./power.js" defer></script>
 </head>
 <body>
-    <h2>sumRange()</h2>
-    <label>Input a number: </label>
-    <input type="number" name="test-input-1" id="test-input-1">
-    <button id="test-btn-1">Submit</button>
-    <h3 id="test-output-1"></h3>
+    <div class="function-div">
+        <h3>sumRange()</h3>
+        <div>
+            <label for="test-input-1">Input a number: </label>
+            <input type="number" name="test-input-1" id="test-input-1">
+            <button id="test-btn-1">Submit</button>
+        </div>
+        <div class="output">
+            <p>Result:</p>
+            <p class="test-output" id="test-output-1"></p>
+        </div>
+    </div>
+
+    <div class="function-div">
+        <h3>power()</h3>
+        <div>
+            <label for="test-input-2">Enter a base: </label>
+            <input type="number" name="test-input-2" id="test-input-2">
+            <label for="test-input-3">Enter an exponent: </label>
+            <input type="number" name="test-input-3" id="test-input-3">
+            <button id="test-btn-2-3">Submit</button>
+        </div>
+        <div class="output">
+            <p>Result:</p>
+            <p class="test-output" id="test-output-2-3"></p>
+        </div>
+    </div>
 </body>
 </html>
