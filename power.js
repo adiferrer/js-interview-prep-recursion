@@ -25,5 +25,4 @@ testInputBtn2and3.addEventListener('click', (event) => {
   const testInputValue2 = parseFloat(testInput3.value);
   const output = document.getElementById('test-output-2-3');
   output.textContent = power(testInputValue1, testInputValue2);
-  console.log(power(testInputValue1, testInputValue2));
 });

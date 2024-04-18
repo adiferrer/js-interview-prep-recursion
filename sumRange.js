@@ -25,5 +25,4 @@ testInputBtn.addEventListener('click', (event) => {
   const testInputValue = parseFloat(testInput.value);
   const output = document.getElementById('test-output-1');
   output.textContent = sumRange(testInputValue);
-  console.log(sumRange(testInputValue));
 });
