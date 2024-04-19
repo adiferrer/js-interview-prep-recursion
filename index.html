@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="./sumRange.js" defer></script>
-    <script src="./power.js" defer></script>
-    <script src="./factorial.js" defer></script>
-    <script src="./all.js" defer></script>
+    <script src="./functions/sumRange.js" defer></script>
+    <script src="./functions/power.js" defer></script>
+    <script src="./functions/factorial.js" defer></script>
+    <script src="./functions/all.js" defer></script>
+    <script src="./functions/productOfArray.js" defer></script>
+    <script src="./functions/replicate.js" defer></script>
 </head>
 <body>
     <div class="function-div">
@@ -64,5 +66,33 @@
             <p class="test-output" id="test-output-5"></p>
         </div>
     </div> 
+
+    <div class="function-div">
+        <h3>productOfArray()</h3>
+        <div>
+            <label for="test-input-6">Input a list of numbers separated with a comma (ex. 5,6,10,3): </label>
+            <input type="text" name="test-input-6" id="test-input-6">
+            <button id="test-btn-6">Submit</button>
+        </div>
+        <div class="output">
+            <p>Result:</p>
+            <p class="test-output" id="test-output-6"></p>
+        </div>
+    </div> 
+
+    <div class="function-div">
+        <h3>replicate()</h3>
+        <div>
+            <label for="test-input-11">Enter how many times you want a number to be repeated: </label>
+            <input type="number" name="test-input-11" id="test-input-11">
+            <label for="test-input-12">Enter the number to be repeated: </label>
+            <input type="number" name="test-input-12" id="test-input-12">
+            <button id="test-btn-11-12">Submit</button>
+        </div>
+        <div class="output">
+            <p>Result:</p>
+            <p class="test-output" id="test-output-11-12"></p>
+        </div>
+    </div>
 </body>
 </html>
